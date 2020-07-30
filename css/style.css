@@ -1,0 +1,80 @@
+*{
+	margin: 0 ;
+	padding: 0;
+	font-family: Century Gothic;
+		
+}
+header{
+	background-image: url( "../_MG_1475.jpg");	
+	height: 100vh;
+	background-size: cover ;
+	background-position: center;
+	
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: 15px;
+	color: #FCFCFC;
+	padding: 8px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	
+}
+ul li a:hover{
+	background-color: #B97172;
+	color: aliceblue;
+}
+ul li.active a{
+	background-color: #EB585A;
+	color: aliceblue;
+}
+.logo img{
+	float: left;
+	width: 300px;
+	height: auto;
+			
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}	
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.title h1{
+	color: #FFFFFF;
+	font-size: 100px;
+	
+}
+.button{
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+.btn{
+	border: 1px solid #FFFFFF;
+	padding: 10px 30px ;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+	
+}
+.btn:hover{
+	background-color: #B97172;
+	color: aliceblue;
+}
