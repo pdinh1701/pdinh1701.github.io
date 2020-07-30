@@ -5,8 +5,11 @@
 		
 }
 header{
+	width: 1920px;
+	height: 1080px;
+	color: antiquewhite;
 	background-image: url(a.jpg);
-	height: 100vh;
+/*	height: 100vh;*/
 	background-size: cover ;
 	background-position: center;
 	
