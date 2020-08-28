@@ -1,0 +1,141 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+/*	background-color: antiquewhite;*/
+	font-size: 16px;
+	font-family: Helvetica Neue;
+}
+.contener{
+	width: 1400px;
+	height: 900px;
+/*	background-color: blueviolet;*/
+	margin: 0 auto;
+	position: relative;
+}
+.dangnhapto{
+	width: 796px;
+	height: 332px;
+/*	background-color: brown;*/
+	margin: 0 auto;
+	position: absolute;
+	top:94px;
+	left: 302px;
+	background-image: url(image/dangnhap.png);
+/*	position: */
+	
+}
+.dangnhapnho{
+	width: 698px;
+	height: 286px;
+/*	background-color: brown;*/
+	position: relative;
+	top:430px;
+	left: 353px;
+	
+}
+.dn{
+	width: 223px;
+	height: 28px;
+/*	background-color: aquamarine;*/
+	margin-bottom: 30px;
+	background-image: url(image/tendangnhapnho.png);
+}
+.mk{
+	width: 140px;
+	height: 28px;
+/*	background-color: aqua;*/
+	background-image: url(image/matkhua.png);
+	margin-bottom: 30px;
+/*	line-height: 39px;*/
+}
+.dangnhapnho table { 
+/*	margin-top: 45px;*/
+}
+.dangnhapnho table input{
+	margin-left: 56px;
+}
+.dangnhapnho table input{
+	width: 398px;
+	height: 39px;
+/*	margin-bottom: 30px;*/
+	border: 2.5px solid #1ccfc9;
+	border-radius: 10px;
+}
+.dangnhapnho table input{
+	margin-bottom: 30px;
+}
+.point checkbox{
+
+}
+.point{
+	position: absolute;
+	left: -5px;
+	width: 100px;
+	height: 30px;
+/*	background-color: antiquewhite;*/
+	line-height: 30px;
+}
+.xacnhan{
+	width: 358px;
+	height: 23px;
+/*	background-color: black;*/
+	background-image: url(image/xacnhan.png);
+	position: absolute;
+	left: 30px;
+/*	margin-bottom: 50px;*/
+}
+.dangnhapxanh{
+	width: 698px;
+	height: 64px;
+	background-color: #1ccfc9;
+/*	border: 2.5px solid #1ccfc9;*/
+	position: absolute;
+	bottom: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+/*	padding: 0 */
+/*	background-image: url(image/dangnhapxanh.png);*/
+	
+}
+.dangnhapxanh:hover{
+	background-color: #FF721D;
+	transition-duration: 0.6s;
+}
+
+.dangnhapxanh .dnxanh{
+	width: 200px;
+	height: 32px;
+/*	background-color: black;*/
+	position: absolute;
+	left: 247px;
+	top: 16px;
+	background-image: url(image/dangnhapxanh.png);
+	
+}
+.quenmk{
+	width: 178px;
+	height: 22px;
+/*	background-color: aquamarine;*/
+	position: absolute;
+	bottom: 125px;
+	background-image: url(image/quenmk.png);
+	left: 424px;
+}
+.dangky{
+	width: 100px;
+	height: 21px;
+/*	background-color: aquamarine;*/
+	background-image: url(image/dangky.png);
+	position: absolute;
+	bottom: 125px;
+	left: 840px;
+	
+}
+input{
+	font-size: 20px;
+	margin-left: 10px;
+	padding-left: 10px;
+}

@@ -1,83 +1,111 @@
+/* CSS Document */
 *{
-	margin: 0 ;
+	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
-		
-}
-header{
-	width: 1920px;
-	height: 1080px;
-	color: antiquewhite;
-	background-image: url(a.jpg);
-	height: 100vh;
-	background-size: cover ;
-	background-position: center;
 	
-}
-ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 25px;
-}
-ul li{
-	display: inline-block;
 }
 
-ul li a{
-	text-decoration: 15px;
-	color: #FCFCFC;
-	padding: 8px 20px;
-	border: 1px solid transparent;
-	transition: 0.6s ease;
-	
+body{
+	background: aquamarine;
+	font-family: Helvetica Neue;
+	font-weight: bold;
 }
-ul li a:hover{
-	background-color: #B97172;
-	color: aliceblue;
+
+.wrapper{
+	width: 100%;
+	height: 1200px;
+/*	background-color: antiquewhite;*/
+	margin: 0 auto;
+	position: relative;
 }
-ul li.active a{
-	background-color: #EB585A;
-	color: aliceblue;
+.wrapper .header{
+	width: 100%;
+	height: 108px;
+	background-color: #1CCFC9;
+	position: relative;
+
+/*	padding-top:37px;*/
 }
-.logo img{
+.logo{
+	width: 76px;
+	height: 69px;
+/*	background-color: antiquewhite;*/
+	margin-top: 19.5px;
+	margin-left: 150px;
 	float: left;
-	width: 300px;
-	height: auto;
-			
+	background-image: url(image/logo.png);
 }
-.main{
-	max-width: 1200px;
-	margin: auto;
-}	
-.title{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+.menu{
+	width: 80%;
+	height: 108px;
+/*	background-color: black;*/
+	float: right;
+/*	margin-right: 45px;*/
+/*	padding-top: 37px;*/
+	box-sizing: border-box;}
+.menu-1{
+	width: 70%;
+	height: 108px;
+/*	background-color: red;*/
+	margin-left: 180px;
+	text-align: center;
+	position: relative;
 	
 }
-.title h1{
-	color: #FFFFFF;
-	font-size: 100px;
+.menu .menu-1 ul{
+	list-style: none;
+	text-align: center;
 	
 }
-.button{
-	position: absolute;
-	top: 75%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	
+.menu .menu-1 ul li{
+	display: inline-block;
+	margin-right:80px;
+	line-height: 108px;
+	position: relative;
+
 }
-.btn{
-	border: 1px solid #FFFFFF;
-	padding: 10px 30px ;
+.menu ul li a{
 	color: #FFFFFF;
 	text-decoration: none;
-	transition: 0.6s ease;
-	
-	
+	opacity: 1;
 }
-.btn:hover{
-	background-color: #B97172;
-	color: aliceblue;
+.menu ul li a:hover{
+	opacity: 0.6;
+	transition-duration: 0.3s;
+}
+.line{
+	width: 0px;
+	height: 3px;
+	background-color: white;
+	transition-duration: 0.5s;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.menu li:hover .line{
+	width: 100%;
+}
+.menu .icon{
+	width: 5%;
+	height: 108px;
+/*	background-color: blanchedalmond;*/
+	float: right;
+	position: absolute;
+	right: 150px;
+	bottom: 0;
+	line-height: 108px;
+}
+.icon ul{
+	list-style: none;
+}
+.icon ul li{
+	display: inline-block;
+	margin-left: 10px;
+	color: white;}
+.banner{
+	width: 100%;
+	height: 617px;
+	background-color: blueviolet;
+	float: left;
+	background-size: cover;
 }
